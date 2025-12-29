@@ -26,9 +26,17 @@ Incluye autenticación JWT, persistencia con PostgreSQL, migraciones con Alembic
 
 ---
 
-## ⚙️ Variables de entorno
+## ⚙️ Clonar repositorio
+Clonar el repostiorio
 
-Crear un archivo `.env` en la raíz del proyecto:
+```bash
+git clone https://github.com/Mucca03/fastapi-task-api.git
+cd fastapi-task-api
+```
+
+
+## ⚙️ Variables de entorno
+Crear un archivo `.env` en la raíz del proyecto (como se ve en env.example):
 
 ```env
 DB_HOST=localhost
@@ -57,16 +65,6 @@ La base quedará disponible en localhost:5432.
 ---
 
 ## 🚀 Instalación y ejecución
-
-
-Clonar el repositorio:
-
-```bash
-git clone https://github.com/Mucca03/fastapi-task-api.git
-cd fastapi-task-api
-```
-
-Crear un archivo `.env` a partir de `.env.example` y ajustar las variables según sea necesario.
 
 Crear y activar entorno virtual:
 
