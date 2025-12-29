@@ -58,6 +58,14 @@ La base quedará disponible en localhost:5432.
 
 ## 🚀 Instalación y ejecución
 
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/Mucca03/fastapi-task-api.git
+cd fastapi-task-api
+```
+
 Crear un archivo `.env` a partir de `.env.example` y ajustar las variables según sea necesario.
 
 Crear y activar entorno virtual:
